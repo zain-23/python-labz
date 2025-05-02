@@ -16,6 +16,7 @@
 # sum of natural numbers
 n = 5
 sum = 0
+# range(start, stop, step)
 for i in range(1,n+1):
     sum += i
 print(f"Sum of first {n} natural numbers is {sum}")
